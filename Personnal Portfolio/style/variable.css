@@ -1,0 +1,63 @@
+:root {
+    /* color */
+    --white:#FFFFFF;
+    --black:#000000;
+    --lightblack1:#1B1B1B;
+    --lightblack2:#080808;
+    --strang-green1:#3F8E00;
+    --strang-green2:#62BA1B;
+    --grey:#9C9C9C;
+    --blue:#000AFF;
+    --strang-green3:#2AB090;
+    --sort-of-orange:#FFA217;
+    --strang-white:#D0E6FF;
+    --very-strang-green:#E0FFF8;
+    --strang-white2:#FFF6E9;
+    --linear-grey:#484848;
+    --dark-grey:#757575;
+    --light-grey:D8D8D8;
+    --sort-of-white:#F8F8F8;
+
+    /* Text configuration*/
+    --body-font:'IBM Plex Mono', sans-serif;
+    --body-highlight-font: 'IBM Plex Mono';
+    --header-font: 'Raleway', sans-serif;
+    --title-font: 'Raleway';
+    --submit-font:'Raleway';
+
+    --header-font-weight: bold;
+    --submit-font-weight:bold;
+
+    --body-font-size: 1rem;
+    --body-highlight-font-size: 1.5rem;
+    --header-font-size: 1.125rem;
+    --submit-font-size:1.125rem;
+    --title-font-size: 2.75rem;
+    --title2-font-size:1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: Auto;
+    --header-line-height: Auto;
+    --title-line-height: Auto; 
+}
+h1 {
+    font-family:var(--header-font) ;
+    font-size:var(--title-font-size) ;
+    line-height: var(--header-line-height);
+    font-weight: var(--header-font-weight);
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-size: var(--title2-font-size);
+    line-height: var(--title-font-size);
+    font-weight: bold;
+}
+p {
+    font-family:var(--body-font) ;
+    font-size:var(--body-font-size) ;
+    line-height: var(--body-line-height);
+    color: var(--grey);
+}
+

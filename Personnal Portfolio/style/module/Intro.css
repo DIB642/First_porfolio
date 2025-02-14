@@ -1,0 +1,13 @@
+.intro_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    margin: 6rem 0 3.5rem 0;
+    align-items: center;
+    align-content: center;
+}
+.intro__text{
+    width: 37.8rem;
+    color: var(--grey);
+}

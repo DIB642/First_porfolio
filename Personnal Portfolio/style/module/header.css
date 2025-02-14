@@ -1,0 +1,48 @@
+.navbar a {
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding: 1rem 4rem;
+    width: 80%;
+    background-color: var(--lightblack1);
+    margin: 0 0 0 5rem;
+    border-radius: 0px 0px 6px 6px ;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar__text {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    color: var(--grey);
+    font-family: var(--title-font);
+}
+.navbar__text a{
+    color: var(--grey);
+    font-size: 1rem;
+}
+
+.navbar__icon{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.3rem;
+}
+.navbar__icon a{
+    color: var(--grey);
+}
+@media screen and (max-width:1100px){
+    .navbar{
+        gap: 4rem;
+        padding: 1rem 2rem;
+
+    }
+    .navbar__icon{
+        gap: 1rem;
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,116 @@
+#home{
+    background-color: var(--black);
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    width: 100%;
+}
+.centrecontenant {
+    color: var(--grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 10rem 15rem 6rem 15rem;
+}
+.centrecontenant div h1, .click {
+    color: var(--white);
+}
+.centre__Text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    gap: 2rem;
+    width: 33.6rem;
+    padding: 1rem;
+}
+.centre__image img {
+    border-radius: 900px;
+}
+.click {
+    background-color: var(--strang-green1);
+    width: max-content;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    border: none;
+    border-radius:2px ;
+    box-shadow: 0px 01px 15px var(--strang-green1);
+    font-weight: bold;
+    color: var(--white);
+    font-size: 1.15em;
+    letter-spacing: 0.1rem;
+}
+.centre__Text .click a{
+    color: var(--white);
+    font-family: var(--header-font);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.text__footer{
+    color: var(--white);
+    width: 57.5rem;
+    padding-left: 0.5rem;
+}
+.footericon{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.footericon :nth-child(n){
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid grey;
+    width: 10rem;
+    height: 3.75rem;
+    font-size: 1.2em;
+    color: var(--grey);
+}
+@media screen and (max-width:1206px){
+    .centre__Text{
+        padding: 0;
+        gap: 1.2rem;
+    }
+    .click {
+        font-size: 0.8em;
+        letter-spacing: 0rem;
+        margin-top: 1rem;
+    }
+    .centre__image img {
+        width: 20rem;
+        height: 20rem;
+    }
+    .centrecontenant div h1{
+        font-size: 2em;
+    }
+    .centrecontenant div p {
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width:966px){
+    .centrecontenant {
+        align-items: center;
+        align-content: center;
+        padding: 6rem 15rem;
+        text-align: center;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .centre__Text{
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:966px){
+    .centre__Text{
+        text-align: center;
+        align-items: center;
+        width: 24.4rem;
+    }
+}
