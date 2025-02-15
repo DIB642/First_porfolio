@@ -90,7 +90,15 @@
         font-size: 2em;
     }
     .centrecontenant div p {
-        font-size: 0.9em;
+        font-size: 1.1em;
+    }
+    .footericon :nth-child(n){
+        width: 9.7rem;
+        height: 3.7rem;
+        font-size: 1.1em;
+    }
+    .text__footer{
+        padding-left: 1.3rem;
     }
 }
 @media screen and (max-width:966px){
@@ -105,12 +113,22 @@
     .centre__Text{
         text-align: center;
         align-items: center;
-    }
-}
-@media screen and (max-width:966px){
-    .centre__Text{
-        text-align: center;
-        align-items: center;
         width: 24.4rem;
     }
+    #home{
+        width: 70.4rem;
+        padding: 4rem 0rem;
+    }
+    .footericon :nth-child(n){
+        width: 9.7rem;
+        height: 3.7rem;
+        font-size: 1.1em;
+    }
+    .text__footer{
+        padding-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width:500px){
+
 }

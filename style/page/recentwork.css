@@ -52,3 +52,8 @@
     font-weight: bold;
     font-size: 1.3em;
 }
+@media screen and (max-width:1138px){
+    #recentwork{
+        width: 70.4rem;
+    }
+}

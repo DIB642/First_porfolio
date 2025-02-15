@@ -82,4 +82,19 @@ form {
     /* transition: 0.3s; */
     font-family:var(--body-font) ;
 }
+@media screen and (max-width:1138px){
+    #getintouch{
+        width: 70.4rem;
+    }
+}
+
+@media screen and (max-width:966px){
+
+}
+@media screen and (max-width:790px){
+
+}
+@media screen and (max-width:660px){
+  
+}
 

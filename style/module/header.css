@@ -13,7 +13,6 @@
     position: fixed;
     z-index: 1000;
 }
-
 .navbar__text {
     display: flex;
     justify-content: center;
@@ -35,14 +34,42 @@
 .navbar__icon a{
     color: var(--grey);
 }
-@media screen and (max-width:1100px){
+@media screen and (max-width:1138px){
     .navbar{
-        gap: 4rem;
+        gap: 2rem;
         padding: 1rem 2rem;
 
     }
     .navbar__icon{
         gap: 1rem;
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:966px){
+    .navbar{
+        gap: 1.2rem;
+        padding: 1rem 1rem 1rem 2rem;
+
+    }
+    .navbar__text a{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:790px){
+    .navbar{
+        gap: 0.7rem;
+        padding: 1rem 2rem 1rem 2rem;
+
+    }
+    .navbar__text a{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:660px){
+    .navbar{
+        gap: 0.5rem;
+        padding: 1rem 2rem 1rem 2rem;
+
     }
 }

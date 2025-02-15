@@ -125,7 +125,7 @@
     border: none;
     margin-top: 2rem;
 }
-@media screen and (max-width:966px){
+/* @media screen and (max-width:966px){
     .work{
         display: flex;
         gap: 1.5rem;
@@ -153,4 +153,9 @@
    #casestudies {
     width: 100%;
 }
+} */
+@media screen and (max-width:1138px){
+    #casestudies{
+        width: 70.4rem;
+    }
 }
