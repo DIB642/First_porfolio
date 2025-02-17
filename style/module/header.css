@@ -24,6 +24,11 @@
     color: var(--grey);
     font-size: 1rem;
 }
+.navbar__text :hover {
+    transform:scale(1.5,1.5) ;
+    color: white;
+    font-weight: bold;
+}
 
 .navbar__icon{
     display: flex;
@@ -44,32 +49,44 @@
         gap: 1rem;
         font-size: 1rem;
     }
+    .navbar__icon{
+        margin-left: 1rem;
+    }
 }
 
 @media screen and (max-width:966px){
     .navbar{
         gap: 1.2rem;
         padding: 1rem 1rem 1rem 2rem;
-
     }
     .navbar__text a{
         font-size: 1.1rem;
+    }
+    .navbar__icon{
+        gap: 1rem;
+        font-size: 1.3rem;
     }
 }
 @media screen and (max-width:790px){
     .navbar{
         gap: 0.7rem;
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 1rem;
+        width: 100%;
+        margin-left: 0;
 
     }
     .navbar__text a{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+    .navbar__icon{
+        gap: 0.7rem;
+        font-size: 1.2rem;
+        margin-left: 0.7rem;
     }
 }
 @media screen and (max-width:660px){
     .navbar{
         gap: 0.5rem;
         padding: 1rem 2rem 1rem 2rem;
-
     }
 }

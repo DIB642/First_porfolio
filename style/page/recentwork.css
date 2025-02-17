@@ -24,6 +24,7 @@
     align-content: center;
     gap: 2rem;
     margin-bottom: 4rem;
+    width: 100%;
 }
 .worker img{
     display: inline-block;
@@ -54,6 +55,19 @@
 }
 @media screen and (max-width:1138px){
     #recentwork{
-        width: 70.4rem;
+        width: 69rem;
+    }
+    .working{
+        width: 100%;
     }
 }
+@media screen and (max-width:500px){
+    .working{
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        display: none;
+    }
+}
+

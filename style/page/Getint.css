@@ -21,6 +21,7 @@
     background-color: var(--lightblack1);
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .footerr p {
     font-size: 1.5em;
@@ -30,7 +31,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: var(--body-font);}
+    font-family: var(--body-font);
+    width: 100%;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -84,17 +87,14 @@ form {
 }
 @media screen and (max-width:1138px){
     #getintouch{
-        width: 70.4rem;
+        width: 69rem;
+    }
+    .formulaire{
+        width: 100%;
     }
 }
 
 @media screen and (max-width:966px){
 
-}
-@media screen and (max-width:790px){
-
-}
-@media screen and (max-width:660px){
-  
 }
 

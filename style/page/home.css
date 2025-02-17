@@ -73,6 +73,9 @@
     color: var(--grey);
 }
 @media screen and (max-width:1206px){
+    #home{
+        width: 69rem;
+    }
     .centre__Text{
         padding: 0;
         gap: 1.2rem;

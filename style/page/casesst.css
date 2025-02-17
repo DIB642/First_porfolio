@@ -2,26 +2,30 @@
     background-color: var(--strang-white2);
     width: 100%;
 }
-.main__casest .intro_title h1{
-    color: var(--black);
-}
-.work{
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 4rem;
-    width: 59.75rem;
-    color: var(--grey);
-}
-.work div h2{
-    color: var(--black);
-    margin-bottom: 0.5em;
-}
 .main__casest{
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
 }
+.main__casest .intro_title h1{
+    color: var(--black);
+}
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    color: var(--grey);
+}
+
+.work div h2{
+    color: var(--black);
+    margin-bottom: 0.5em;
+}
+
 .Fintech {
     background-color: var(--strang-white2);
     border-radius: 45px;
@@ -57,6 +61,7 @@
     flex-direction: column;
     padding-top: 1.7rem;
     width: 33.3rem;
+    /* margin-left: 5rem; */
 }
 .work__text2 {
     display: flex;
@@ -82,6 +87,7 @@
 }
 .work__image2{
     width: 27.8rem;
+    /* margin-left: 5rem; */
 }
 .case1{
     width: max-content;
@@ -125,37 +131,33 @@
     border: none;
     margin-top: 2rem;
 }
-/* @media screen and (max-width:966px){
-    .work{
-        display: flex;
-        gap: 1.5rem;
-        margin-bottom: 4rem;
-        width: 50.75rem;
-    }
-    .work__text{
-        display: flex;
-        flex-direction: column;
-        padding-top: 1.2rem;
-        width: 25.3rem;
-    }
-    .work__text2 {
-        display: flex;
-        flex-direction: column;
-        padding-top: 1.2rem;
-        width: 25.3rem;
-    }
-    .work__image{
-        width: 27.8rem;
-   }
-   .work__image2{
-       width: 27.8rem;
-   }
-   #casestudies {
-    width: 100%;
-}
-} */
+
 @media screen and (max-width:1138px){
     #casestudies{
-        width: 70.4rem;
+        width: 69rem;
+    }
+}
+@media screen and (max-width:500px){
+    .work{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        padding-left: -5rem;
+        padding-right: -5rem;
+    }
+    .work__text{
+        padding-top: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+    .work__text2 {
+        padding-top: 1.7rem;
+        text-align: center;
+        align-items: center;
+    }
+    .work__text2 {
+        order: -1;
     }
 }
